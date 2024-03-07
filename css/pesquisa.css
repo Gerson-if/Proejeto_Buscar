@@ -1,0 +1,97 @@
+/* pesquisa.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+#searchInput {
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+li span {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+a, button {
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a.btnVisualizar {
+    background-color: #007bff;
+    color: #fff;
+}
+
+a.btnEditar {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+button.btnExcluir {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+}
+
+a, button:hover {
+    text-decoration: none;
+}
+
+a.btnVisualizar:hover {
+    background-color: #0056b3;
+}
+
+a.btnEditar:hover {
+    background-color: #d39e00;
+}
+
+button.btnExcluir:hover {
+    background-color: #c82333;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 20px;
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
