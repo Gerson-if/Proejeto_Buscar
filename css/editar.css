@@ -5,9 +5,14 @@ body {
     padding: 0;
 }
 
+h1 {
+    text-align: center;
+}
 h2 {
     color: #333;
+    text-align: center;
 }
+
 
 form {
     max-width: 600px;

@@ -43,9 +43,9 @@ $user = $user_result->fetch_assoc();
 
 </head>
 <body>
-    <h2>Adicionar Novo Registro</h2>
     <?php if (isset($error_message)) { echo "<p>$error_message</p>"; } ?>
     <form method="post" action="adicionar_registro.php">
+       <h1>Adicionar Novo Registro</h1>
         <label for="placa">Placa:</label>
         <input type="text" name="placa" required><br>
 
@@ -72,6 +72,6 @@ $user = $user_result->fetch_assoc();
 
     <a href="pesquisar_registros.php">Pesquisar Registros</a>
     <a href="painel_admin.php">Voltar</a>
-    <a href="logout.php">Sair</a>
+   <!--<a href="logout.php">Sair</a> -->
 </body>
 </html>

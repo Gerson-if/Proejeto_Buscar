@@ -7,8 +7,9 @@ body {
     padding: 0;
 }
 
-h2 {
+h1 {
     color: #333;
+    text-align: center;
 }
 
 #searchInput {
@@ -79,19 +80,19 @@ button.btnExcluir:hover {
     background-color: #c82333;
 }
 
-/* Footer Styles */
-footer {
+/* Estilo para a barra de navegação */
+header nav #navbar {
     margin-top: 20px;
     background-color: #333;
     padding: 10px 0;
     text-align: center;
 }
 
-footer a {
+header nav #navbar a {
     color: #fff;
     margin: 0 10px;
 }
 
-footer a:hover {
+header nav #navbar a:hover {
     text-decoration: underline;
 }

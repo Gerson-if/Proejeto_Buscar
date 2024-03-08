@@ -50,6 +50,5 @@ if (isset($_GET['id'])) {
     <p><strong>Data de Cadastro:</strong> <?php echo $registro['data_cadastro']; ?></p>
 
     <a href="pesquisar_registros.php">Voltar</a>
-    <a href="logout.php">Sair</a>
 </body>
 </html>

@@ -7,7 +7,9 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url(../imagens/9gac.png);
+    background-image: url(../imagens/9gac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 form {

@@ -50,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     WHERE id = $registro_id";
 
     if ($conn->query($update_sql) === TRUE) {
-        header("Location: visualizar_registro.php?id=$registro_id");
+        header("Location: pesquisar_registros.php");
         exit();
     } else {
         $error_message = "Erro ao editar o registro: " . $conn->error;
@@ -93,8 +93,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <input type="submit" value="Salvar Edições">
     </form>
 
-    <a href="visualizar_registro.php?id=<?php echo $registro_id; ?>">Cancelar</a>
-    <a href="pesquisar_registros.php">Voltar</a>
-    <a href="logout.php">Sair</a>
+    <a href="pesquisar_registros.php">Voltar para Pesquisa de Registros</a>
 </body>
 </html>

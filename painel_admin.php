@@ -96,8 +96,7 @@
     </div>
 
     <div id="content">
-        <h2>Bem-vindo, <?php echo $user['username']; ?> Administrador</h2>
-        <!-- Conteúdo da Página vai aqui -->
+        <h2>Bem-vindo, Administrador</h2>
     </div>
 
     <div id="footer">
@@ -107,10 +106,10 @@
 
     <div class="slides-container">
         <div class="slide active">
-            <img src="https://cmo.eb.mil.br/images/Noticias_CMO/2022/opagata_corumba_3.jpeg" alt="Slide 1">
+            <img src="imagens/agata_2.jpeg" alt="Slide 1">
         </div>
         <div class="slide">
-            <img src="https://www.sejusp.ms.gov.br/wp-content/uploads/2021/10/ccopagata.jpeg" alt="Slide 2">
+            <img src="imagens/agata_1.jpeg" alt="Slide 2">
         </div>
         <!-- Adicione mais slides conforme necessário -->
     </div>
